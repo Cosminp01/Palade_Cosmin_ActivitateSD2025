@@ -1,0 +1,10 @@
+1,Bucuresti,Sector 1,Bulevardul Unirii,25.5,3,A,1
+2,Cluj,Cluj-Napoca,Strada Memorandumului,14.0,5,B,2
+3,Timis,Timisoara,Calea Aradului,98.7,10,C,3.5
+4,Constanta,Constanta,Strada Mircea cel Batran,33.0,8,D,5
+5,Iasi,Iasi,Bulevardul Independentei,7.3,12,A,4
+6,Brasov,Brasov,Strada Lunga,45.0,6,B,2.5
+7,Dolj,Craiova,Strada Amaradia,21.0,2,C,1
+8,Galati,Galati,Strada Brailei,66.6,7,D,6
+9,Bihor,Oradea,Strada Republicii,17.0,4,A,3
+10,Arges,Pitesti,Strada Exercitiu,9.5,1,B,8
