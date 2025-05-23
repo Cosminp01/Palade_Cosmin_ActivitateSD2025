@@ -52,7 +52,7 @@
 //}
 //
 //Heap initializareHeap(int lungime) {
-//
+//	
 //	Heap heap;
 //	heap.lungime = lungime;
 //	heap.nrBilete = 0;
@@ -83,38 +83,38 @@
 //			filtrareHeap(heap, pozMax);
 //		}
 //	}
-//	
 //}
 //
 //Heap citireBileteHeapFisier(const char* numeFisier) {
-//
+//	
 //	FILE* file = fopen(numeFisier, "r");
 //	Heap heap = initializareHeap(10);
-//
 //	while (!feof(file)) {
 //		heap.vector[heap.nrBilete++] = citireBileteFisier(file);
 //	}
 //	fclose(file);
 //
-//	for (int i = (heap.nrBilete - 2) / 2; i >= 0; i--) {
+//	for (int i = (heap.nrBilete - 2 / 2); i >= 0; i--) {
 //		filtrareHeap(heap, i);
 //	}
 //	return heap;
 //}
 //
-//void afisareBileteHeapReal(Heap heap) {
+//void afisareBileteRealHeap(Heap heap) {
+//
 //	for (int i = 0; i < heap.nrBilete; i++) {
 //		afisareBilete(heap.vector[i]);
 //	}
 //}
 //
-//void afisareBileteHeapAscunse(Heap heap){
+//void afisareBileteAscunsHeap(Heap heap) {
+//
 //	for (int i = 0; i < heap.lungime; i++) {
 //		afisareBilete(heap.vector[i]);
 //	}
 //}
 //
-//Heap dezalocareHeap(Heap* heap) {
+//void dezalocareHeap(Heap* heap) {
 //
 //	for (int i = 0; i < heap->lungime; i++) {
 //		free(heap->vector[i].titlu);
@@ -132,47 +132,28 @@
 //		Bilet aux = heap->vector[0];
 //		heap->vector[0] = heap->vector[heap->nrBilete - 1];
 //		heap->vector[heap->nrBilete - 1] = aux;
-//		heap->nrBilete--;
 //
-//		for (int i = (heap->nrBilete - 2) / 2; i >= 0; i--) {
+//		for (int i = (heap->nrBilete - 2 / 2); i >= 0; i--) {
 //			filtrareHeap(*heap, i);
 //		}
 //		return aux;
 //	}
 //}
 //
-//float sumaPretBileteHeap(Heap heap) {
-//
-//	float sumaTotala = 0;
-//	if (heap.nrBilete > 0) {
-//		for (int i = 0; i < heap.lungime; i++) {
-//			sumaTotala += heap.vector[i].pretBilet;
-//		}
-//		return sumaTotala;
-//	}
-//	else {
-//		return 0;
-//	}
-//}
-//
-//
 //int main() {
 //
-//	Heap heap = citireBileteHeapFisier("bilete_film.txt");
-//	afisareBileteHeapReal(heap);
+//	Heap heap;
+//	heap.lungime = 0;
+//	heap.nrBilete = 0;
 //
-//	printf("\nSuma tuturor biletelor este: %5.2f\n", sumaPretBileteHeap(heap));
-//
-//	printf("\n-----------\n");
-//	printf("\nAfisarea biletului extras:\n");
+//	heap = citireBileteHeapFisier("bilete_film.txt");
+//	afisareBileteRealHeap(heap);
+//	printf("\n----------\n");
+//	printf("Afisare bilet extras:\n");
 //	afisareBilete(extragereBiletHeap(&heap));
 //
-//	printf("\n-----------\n");
-//	printf("\nAfisarea biletului extras:\n");
-//	afisareBilete(extragereBiletHeap(&heap));
-//
-//	printf("\n-----------\n");
-//	printf("\nAfisarea bilete dupa dezalocarea memoriei!\n");
+//	printf("\n----------\n");
+//	printf("Afisare bilete dupa dezalocarea memoriei!\n");
 //	dezalocareHeap(&heap);
 //
 //	return 0;
