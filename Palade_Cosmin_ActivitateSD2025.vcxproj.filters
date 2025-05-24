@@ -24,5 +24,181 @@
     <ClCompile Include="Laborator2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Laborator1_practice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator1_practice1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator1_practice2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator1_practice3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborato2_practice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator2_practice1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator2_practice2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator2_practice3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator_3_citire_fisier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator_3_citire_fisier_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator4_practice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator4_practice1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator4_practice2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator4_practice3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator5_practice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator4_practice4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator6_practice1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator2_practice4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator2_practice5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LS.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LD.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AVL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator7_practice1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator7_practice2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator8_practice1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator7_practice3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator8_practice2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator7_practice4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator8_practice3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator9_practice1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator10.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator10_practice1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator10_practice2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Coada.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stiva.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AVL_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AVL2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AVL3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AVL4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Coada_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stiva_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="masini.txt" />
+    <Text Include="blocuri.txt" />
+    <Text Include="laptopuri.txt" />
+    <Text Include="rezervari.txt" />
+    <Text Include="tablouri.txt" />
+    <Text Include="televizoare.txt" />
+    <Text Include="routere.txt" />
+    <Text Include="bilete_film.txt" />
+    <Text Include="domicilii.txt" />
+    <Text Include="domicilii_arbore.txt" />
+    <Text Include="vacante.txt" />
+    <Text Include="vacante_arbore.txt" />
   </ItemGroup>
 </Project>
