@@ -1,6 +1,0 @@
-1,Lenovo,Legion,Y,64,5600.23
-2,Acer,Star,A,32,3750.23
-3,Asus,ZenBook,M,16,3802.1
-4,Lenovo,Legion,Y,64,5600.23
-5,Toshiba,One,J,128,8500
-6,Apple,AirForce,I,328,24300.90

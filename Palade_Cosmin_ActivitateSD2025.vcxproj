@@ -127,77 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ABC.c" />
-    <ClCompile Include="ABC_1.c" />
-    <ClCompile Include="AVL.c" />
-    <ClCompile Include="AVL2.c" />
-    <ClCompile Include="AVL3.c" />
-    <ClCompile Include="AVL4.c" />
-    <ClCompile Include="AVL_1.c" />
-    <ClCompile Include="Coada.c" />
-    <ClCompile Include="Coada_1.c" />
-    <ClCompile Include="HashTable.c" />
-    <ClCompile Include="Heap.c" />
-    <ClCompile Include="Heap_1.c" />
-    <ClCompile Include="Laborato2_practice.c" />
     <ClCompile Include="Laborator1.c" />
-    <ClCompile Include="Laborator10.c" />
-    <ClCompile Include="Laborator10_practice1.c" />
-    <ClCompile Include="Laborator10_practice2.c" />
-    <ClCompile Include="Laborator11.c" />
-    <ClCompile Include="Laborator1_practice.c" />
-    <ClCompile Include="Laborator1_practice1.c" />
-    <ClCompile Include="Laborator1_practice2.c" />
-    <ClCompile Include="Laborator1_practice3.c" />
     <ClCompile Include="Laborator2.c" />
-    <ClCompile Include="Laborator2_practice1.c" />
-    <ClCompile Include="Laborator2_practice2.c" />
-    <ClCompile Include="Laborator2_practice3.c" />
-    <ClCompile Include="Laborator2_practice4.c" />
-    <ClCompile Include="Laborator2_practice5.c" />
-    <ClCompile Include="Laborator4.c" />
-    <ClCompile Include="Laborator4_practice.c" />
-    <ClCompile Include="Laborator4_practice1.c" />
-    <ClCompile Include="Laborator4_practice2.c" />
-    <ClCompile Include="Laborator4_practice3.c" />
-    <ClCompile Include="Laborator4_practice4.c" />
-    <ClCompile Include="Laborator5.c" />
-    <ClCompile Include="Laborator5_practice.c" />
-    <ClCompile Include="Laborator6.c" />
-    <ClCompile Include="Laborator6_practice1.c" />
-    <ClCompile Include="Laborator7.c" />
-    <ClCompile Include="Laborator7_practice1.c" />
-    <ClCompile Include="Laborator7_practice2.c" />
-    <ClCompile Include="Laborator7_practice3.c" />
-    <ClCompile Include="Laborator7_practice4.c" />
-    <ClCompile Include="Laborator8.c" />
-    <ClCompile Include="Laborator8_practice1.c" />
-    <ClCompile Include="Laborator8_practice2.c" />
-    <ClCompile Include="Laborator8_practice3.c" />
-    <ClCompile Include="Laborator9.c" />
-    <ClCompile Include="Laborator9_practice1.c" />
-    <ClCompile Include="Laborator_3_citire_fisier.c" />
-    <ClCompile Include="Laborator_3_citire_fisier_2.c" />
-    <ClCompile Include="LD.c" />
-    <ClCompile Include="LS.c" />
     <ClCompile Include="Seminar01.c" />
-    <ClCompile Include="Stiva.c" />
-    <ClCompile Include="Stiva_1.c" />
-    <ClCompile Include="Vector.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="bilete_film.txt" />
-    <Text Include="blocuri.txt" />
-    <Text Include="domicilii.txt" />
-    <Text Include="domicilii_arbore.txt" />
-    <Text Include="laptopuri.txt" />
-    <Text Include="masini.txt" />
-    <Text Include="rezervari.txt" />
-    <Text Include="routere.txt" />
-    <Text Include="tablouri.txt" />
-    <Text Include="televizoare.txt" />
-    <Text Include="vacante.txt" />
-    <Text Include="vacante_arbore.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
